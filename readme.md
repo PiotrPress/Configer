@@ -20,14 +20,14 @@ $config = new Configer( '.config', [
 ] );
 
 echo $config[ 'key' ]; 
-$config[ 'key' ] = 'new_value'
+$config[ 'key' ] = 'new_value';
 
 $config->save();
 ```
 
 ## Requirements
 
-- PHP >= `7.4` version.
+PHP >= `7.4` version.
 
 ## License
 
