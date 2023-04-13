@@ -30,7 +30,7 @@ class Configer implements \IteratorAggregate, \ArrayAccess, \Countable {
         return isset( $this->data[ $offset ] );
     }
 
-    public function offsetGet( $offset ) {
+    public function offsetGet( $offset ) : mixed {
         return $this->data[ $offset ] ?? null;
     }
 
