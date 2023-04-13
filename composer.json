@@ -3,18 +3,18 @@
   "type": "library",
   "license": "MIT",
   "description": "This library loads/saves php array from/to a configuration file.",
-  "homepage": "https://piotr.press",
+  "homepage": "https://github.com/PiotrPress/configer",
   "authors": [
     {
       "name": "Piotr Niewiadomski",
-      "homepage": "https://github.com/PiotrPress"
+      "homepage": "https://piotr.press"
     }
   ],
   "keywords": [
     "configer", "config", "configuration", "config-file", "configuration-file", "array", "array-access", "array-object"
   ],
   "require": {
-    "php": ">=7.4"
+    "php": "^7.4"
   },
   "autoload": {
     "psr-4": {

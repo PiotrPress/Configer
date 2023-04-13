@@ -27,7 +27,8 @@ $config->save();
 
 ## Requirements
 
-PHP >= `7.4` version.
+* Branch `2.x` supports PHP >= `8.0` version.
+* Branch `1.x` supports PHP ^`7.4` version.
 
 ## License
 
